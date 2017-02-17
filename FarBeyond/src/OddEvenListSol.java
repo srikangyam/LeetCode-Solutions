@@ -9,7 +9,7 @@ public class OddEvenListSol {
 		ListNode newH = oddEvenList(head);
 		head.printList(newH);
 	}
-    @SuppressWarnings("null")
+    
 	public static ListNode oddEvenList(ListNode head) {
     	if (head == null) return head;
     	
